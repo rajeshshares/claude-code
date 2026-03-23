@@ -21,25 +21,25 @@ Claude picks up this skill, reads your config, asks clarifying questions if need
 Clone the repo and copy the skill into your Claude skills folder in one go:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cp -r your-repo/feature-breakdown ~/.claude/skills/
+git clone https://github.com/rajeshshares/claude-code.git
+cp -r claude-code/claude-skills/feature-breakdown ~/.claude/skills/
 ```
 
 If `~/.claude/skills/` does not exist yet:
 
 ```bash
 mkdir -p ~/.claude/skills
-cp -r your-repo/feature-breakdown ~/.claude/skills/
+cp -r claude-code/claude-skills/feature-breakdown ~/.claude/skills/
 ```
 
 ### Option B — Download ZIP from GitHub
 
-1. Go to the repo on GitHub
+1. Go to [github.com/rajeshshares/claude-code](https://github.com/rajeshshares/claude-code)
 2. Click **Code → Download ZIP**
 3. Unzip the file
 4. Open Terminal and run:
    ```bash
-   cp -r path/to/unzipped/feature-breakdown ~/.claude/skills/
+   cp -r claude-code-main/claude-skills/feature-breakdown ~/.claude/skills/
    ```
 
 ### Option C — Finder (macOS, no Terminal)
