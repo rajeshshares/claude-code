@@ -25,7 +25,6 @@ export default defineConfig(({ mode }) => ({
     port: 5175,
     hmr: {
       host: process.env.PUBLIC_HOST || "localhost",
-      port: 5173,
     },
     allowedHosts: [
       "localhost",
@@ -34,9 +33,5 @@ export default defineConfig(({ mode }) => ({
       ".codepup.ai",
       ".codepup.app"
     ].filter(Boolean),
-    watch: {
-      usePolling: true,
-      interval: 1000,
-    },
   },
 }));
